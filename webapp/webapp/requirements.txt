@@ -4,3 +4,5 @@ django-storages[boto3]==1.12.3
 django-cron==0.5.1
 medcat==1.2.7
 urllib3==1.26.5
+huggingface-hub>=0.13.4 # not directly required, pinned by Snyk to avoid a vulnerability
+jupyter-server>=2.11.2 # not directly required, pinned by Snyk to avoid a vulnerability
